@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "lib": ["ES2020"],       // Hapus 'DOM' dari sini agar tidak tabrakan dengan Node
+    "types": ["node"],       // Ini penting untuk dukungan Buffer, require, dll
+    "skipLibCheck": true
+  }
+}
